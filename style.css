@@ -1,0 +1,190 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  /* Header Styles */
+  .header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .nav-menu {
+    list-style: none;
+  }
+  
+  .nav-menu li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .nav-menu li:last-child {
+    margin-right: 0;
+  }
+  
+  .nav-menu a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Hero Section Styles */
+  .hero {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .btn-primary {
+    background-color: #ff9900;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  /* Section Styles */
+  .section {
+    padding: 60px 0;
+  }
+  
+  .section-title {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .bg-gray {
+    background-color: #f8f8f8;
+  }
+  
+  /* Services Styles */
+  .services {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .service {
+    flex-basis: calc(33.33% - 20px);
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+  }
+  
+  .service h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Portfolio Styles */
+  .portfolio-items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .portfolio-item {
+    flex-basis: calc(33.33% - 20px);
+    margin-bottom: 20px;
+  }
+  
+  .portfolio-item img {
+    max-width: 100%;
+  }
+  
+  /* About Us Styles */
+  .about-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+  }
+  
+  .about-text {
+    flex-basis: calc(50% - 20px);
+    margin-bottom: 20px;
+  }
+  
+  .about-image {
+    flex-basis: calc(50% - 20px);
+    text-align: center;
+  }
+  
+  .about-image img {
+    max-width: 100%;
+  }
+  
+  /* Contact Styles */
+  .contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .contact-form textarea {
+    height: 150px;
+  }
+  
+  /* Footer Styles */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .nav-menu {
+      text-align: center;
+      margin-top: 20px;
+    }
+  
+    .nav-menu li {
+      display: block;
+      margin-bottom: 10px;
+    }
+  }
+  
